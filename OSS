@@ -80,3 +80,14 @@ Commit - 버전 관리를 위해 현재 스테이지 영역의 내용에 대해 
 • $ git log —reverse 오래된 커밋부터 표시 —graph 와 함꼐 사용 x
 • $ git log —all 모든 브랜치의 로그 이력 표시
 • $ git log -n 최근 n개의 로그 이력 표시
+
+
+과거로의 시간여행
+• $ git checkout HEAD~ HEAD 이전 커밋으로 이동
+• $ git checkout - 이전 커밋으로 이동
+• $ git checkout [branch] 다른 브랜치로 이동
+• $ git checkout main 브랜치의 마지막 커밋으로 이동
+• $ git checkout -b [newBranch] 새로운 브랜치를 생성하고 이동
+• $ git switch -d 이전 커밋으로 이동
+• $ git switch [branch] 다른 브랜치로 이동
+• $ git switch -c [newBranch] 새로운 브랜치를 생성하고 이동
