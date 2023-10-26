@@ -63,3 +63,20 @@ Commit - 버전 관리를 위해 현재 스테이지 영역의 내용에 대해 
 • $ git show -s 파일 차이는 표시되지 않음
 • $ git show [HEAD] 지정한 HEAD의 커밋 정보 표시
 • $ git. show[commitID] 지정한 commitID의 커밋 정보 표시
+
+여러 커밋과 로그 이력
+• $ git init basic 저장소 생성
+• $ git add , commit 깃 저장소에 저장
+• $ git config —global user.name hskang 사용자이름
+• $ git config —global user.email hskang@gmail.com 전자메일 설정
+• $ git config —global core.autocrlf true 자동 줄바꿈
+• $ git config —global core.autocrlf false 안전 줄바꿈
+• $ git config —global core.editor ‘code —wait’ 기본 편집기 설정
+• $ git config —global init.defaultBranch main 기본 브랜치 이름 설정
+• $ git init basic 저장소 basic 설정
+• $ cd basic 폴더 이동
+• $ ls -al 파일 확인
+• $ git log —graph 문자 그림으로 로그 이력 그리기
+• $ git log —reverse 오래된 커밋부터 표시 —graph 와 함꼐 사용 x
+• $ git log —all 모든 브랜치의 로그 이력 표시
+• $ git log -n 최근 n개의 로그 이력 표시
