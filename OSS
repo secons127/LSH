@@ -90,4 +90,4 @@ Commit - 버전 관리를 위해 현재 스테이지 영역의 내용에 대해 
 • $ git checkout -b [newBranch] 새로운 브랜치를 생성하고 이동
 • $ git switch -d 이전 커밋으로 이동
 • $ git switch [branch] 다른 브랜치로 이동
-
+scc
