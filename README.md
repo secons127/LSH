@@ -2,6 +2,9 @@
 
 ![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=120&section=header&text=Welcome in secons world!&fontSize=90)
 
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=footer)
+
+
 STUDYING📚
 <div align="center">
 	<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white" />
