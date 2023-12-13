@@ -1,9 +1,6 @@
 ### HI THERE🐾
 
-
-
-
-###STUDYING📚
+STUDYING📚
 <div align="center">
 	<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white" />
 	<img src="https://img.shields.io/badge/Java-007396?style=flat&logo=Java&logoColor=white" />
@@ -17,3 +14,7 @@
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=secons127&layout=compact"><br>
 <br>
 <img src="https://github-readme-stats.vercel.app/api?username=secons127&show_icons=true">
+
+
+[![Solved.ac
+프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=supjessica20)](https://solved.ac/supjessica20)
