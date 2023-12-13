@@ -14,4 +14,4 @@
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=secons127&layout=compact"><br>
 <br>
-<img src="https://github-readme-stats.vercel.app/api?username=secons12a7&show_icons=true">
+<img src="https://github-readme-stats.vercel.app/api?username=secons127&show_icons=true">
