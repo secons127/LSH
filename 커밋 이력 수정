@@ -1,0 +1,60 @@
+커밋 메시지 수정
+뭉쳐지는 커밋 CC의 메시지 수정
+17
+저장 후 닫기
+편집
+# This is a combination of 3 commits.
+# This is the 1st commit message:
+CC
+# This is the commit message #2:
+DD
+# This is the commit message #3:
+EE
+# This is a combination of 3 commits.
+# This is the 1st commit message:
+CC – DD - EE
+# This is the commit message #2:
+# This is the commit message #3:
+
+ rebase -i로여러커밋수정
+명령 squash 성공
+로그 이력 수가 줄어듦
+18
+파이썬@DESKTOP-8TN3J1L MINGW64 /c/[smart git]/ireb (main)
+$ git rebase --interactive HEAD~4
+[detached HEAD 4fc7c87] CC-DD-EE
+Date: Mon Jan 23 18:03:47 2023 +0900
+1 file changed, 3 insertions(+)
+Successfully rebased and updated refs/heads/main.
+파이썬@DESKTOP-8TN3J1L MINGW64 /c/[smart git]/ireb (main)
+$ git log --oneline
+4fc7c87 (HEAD -> main) CC-DD-EE
+f6549db DD
+b896380 B
+414f9f5 A
+
+
+명령 drop
+마지막 커밋 제거
+19
+pick b896380 B
+pick 4fc7c87 CC-DD-EE
+$ git rebase --interactive HEAD~2
+편집 pick b896380 B
+d 4fc7c87 CC-DD-EE
+파이썬@DESKTOP-8TN3J1L MINGW64 /c/[smart git]/ireb (main)
+$ git log --oneline
+4fc7c87 (HEAD -> main) CC-DD-EE
+b896380 B
+414f9f5 A
+파이썬@DESKTOP-8TN3J1L MINGW64 /c/[smart git]/ireb (main)
+$ git rebase --interactive HEAD~2
+Successfully rebased and updated refs/heads/main.
+파이썬@DESKTOP-8TN3J1L MINGW64 /c/[smart git]/ireb (main)
+$ git log --oneline
+b896380 (HEAD -> main) CC-DD-EE
+414f9f5 A
+파이썬@DESKTOP-8TN3J1L MINGW64 /c/[smart git]/ireb (main)
+$ cat f
+111
+222
