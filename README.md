@@ -1,2 +1,58 @@
-![header]([[https://capsule-render.vercel.app/api](https://camo.githubusercontent.com/5592d73b025ba0f72a384adb6f50fe8c2ecac74232c53394221f990b328f1a29/68747470733a2f2f63617073756c652d72656e6465722e76657263656c2e6170702f6170693f747970653d736c69636526636f6c6f723d6175746f266865696768743d32303026746578743d534c49434526666f6e74416c69676e3d373026726f746174653d313326666f6e74416c69676e593d323526646573633d6465736325323066756e6374696f6e2532306973253230616c736f253230726f74617465642e2664657363416c69676e3d36302664657363416c69676e593d3434)https://camo.githubusercontent.com/5592d73b025ba0f72a384adb6f50fe8c2ecac74232c53394221f990b328f1a29/68747470733a2f2f63617073756c652d72656e6465722e76657263656c2e6170702f6170693f747970653d736c69636526636f6c6f723d6175746f266865696768743d32303026746578743d534c49434526666f6e74416c69676e3d373026726f746174653d313326666f6e74416c69676e593d323526646573633d6465736325323066756e6374696f6e2532306973253230616c736f253230726f74617465642e2664657363416c69676e3d36302664657363416c69676e593d3434](https://camo.githubusercontent.com/2eadf300dae290670598a937e92ed9e2dc94bd67a1cdbc184757b3b80f836c94/68747470733a2f2f63617073756c652d72656e6465722e76657263656c2e6170702f6170693f747970653d76656e6f6d266865696768743d32303026746578743d49253230616d25323056656e6f6d2e26666f6e7453697a653d373026636f6c6f723d303a3838373165352c3130303a623637386334267374726f6b653d623637386334)https://camo.githubusercontent.com/2eadf300dae290670598a937e92ed9e2dc94bd67a1cdbc184757b3b80f836c94/68747470733a2f2f63617073756c652d72656e6465722e76657263656c2e6170702f6170693f747970653d76656e6f6d266865696768743d32303026746578743d49253230616d25323056656e6f6d2e26666f6e7453697a653d373026636f6c6f723d303a3838373165352c3130303a623637386334267374726f6b653d623637386334?&text=🖥Hi,there?🎈&height=310&color=D3D3D3)
+<div align=center>
 
+<img src="https://wave.vercel.app/api?type=waving&color=auto&height=200&section=header&text=SECON's🖥%20Github!&fontSize=90" />
+</div>
+
+
+<div align=center>
+	<h3>📚 Tech Stack 📚</h3>
+	<p>✨ Platforms & Languages ✨</p>a
+</div>
+<div align="center">
+	<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+	<img src="https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white" />
+	<img src="https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white" />
+	<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white" />
+	<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white" />
+	<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white" />
+	
+</div>
+<br>
+<div align=center>
+	<p>🛠 Tools 🛠</p>
+</div>
+<div align=center>
+	<img src="https://img.shields.io/badge/Eclipse%20IDE-2C2255?style=flat&logo=EclipseIDE&logoColor=white" />
+	<img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=flat&logo=VisualStudioCode&logoColor=white" />
+	<br>
+	<img src="https://img.shields.io/badge/Tomcat-F8DC75?style=flat&logo=ApacheTomcat&logoColor=white" />
+	<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white" />
+</div>
+<div align=center>
+<br>
+	<p>🎨 email 🎨</p>
+</div>
+<div align=center>
+	<a href="supjessica20@gmail.com">
+		<img src="https://img.shields.io/badge/Mail-30B980?style=flat&logo=Gmail&logoColor=white" />
+	<br>
+</div>
+		<br>
+<div align=center>
+	<p> 🍀USE&VISITOR🍀 </p>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=secons127&layout=compact">
+	<br>
+<img src="https://github-readme-stats.vercel.app/api?username=secons127&show_icons=true">
+<br>
+
+![Secons's GitHub Contributor stats](https://github-contributor-stats.vercel.app/api?username=secons127)
+
+<br>
+<p>🏆 Baekjoon solved rank 🏆</p>
+
+[![Solved.ac
+프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj={supjessica20})](https://www.acmicpc.net/user/supjessica20)
+</div>
+<br>
+
+![](./profile-3d-contrib/profile-season-animate.svg)
