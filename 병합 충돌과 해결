@@ -1,0 +1,36 @@
+병합 전까지 수행
+순서 절차 명령
+❶ 저장소 mconf 생성 후 이동
+$ git init mconf
+$ cd mconf
+❷ 파일 f 생성 후 커밋
+$ echo 111 > f
+$ git add f
+$ git commit -m 1
+❸ 브랜치 topic 생성 후 이동
+$ git switch -c topic
+Switched to a new branch 'topic'
+❹ 파일 f 수정 후 커밋
+$ echo aaa >> f
+$ git commit -am A
+❺ 브랜치 main으로 이동
+$ git checkout main
+Switched to branch 'main'
+❻ 파일 f 수정 후 커밋
+$ echo 222 >> f
+$ git commit -am 2
+❼ 현재 모든 브랜치 로그 이력 보기
+$ git log --graph —oneline --all
+* 004b455 (HEAD -> main) 2
+| * 003ee3c (topic) A
+|/
+* 96d9857 1
+
+
+3-way 충돌 발생
+$ git merge hotfix
+충돌한 파일을 인지하고 파일 수정
+$ code file
+수정 후 다시 add, commit
+$ git commit –am ‘msg’
+충돌 이후 병합 취소
