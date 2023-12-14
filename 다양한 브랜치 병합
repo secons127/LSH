@@ -1,0 +1,53 @@
+병합 명령
+19
+--squash 
+파이썬@DESKTOP
+-8TN3J1L MINGW64 /c/[smart git]/mysqsh (main)
+$ git log --oneline --graph --all
+* 3c3cd0f (HEAD 
+-> main
+)
+2 | * 3d36e77 (topic) B | * 8b48b8c A
+|/
+* afd4625
+1
+파이썬@DESKTOP
+-8TN3J1L MINGW64 /c/[smart git]/mysqsh (main)
+$ git merge --squash topic
+Automatic merge went well; stopped before committing as requested
+Squash commit -- not updating HEAD
+파이썬@DESKTOP
+-8TN3J1L MINGW64 /c/[smart git]/mysqsh (main)
+$ git commit 
+-m 'Squash merge 3AB'
+[main 07b1c30] Squash merge 3AB
+1 file changed, 2 insertions(+)
+create mode 100644 g
+파이썬@DESKTOP
+-8TN3J1L MINGW64 /c/[smart git]/mysqsh (main)
+$ git log --oneline --graph --all
+* 07b1c30 (HEAD 
+-> main
+) Squash merge 3AB
+* 3c3cd0f
+2 | * 3d36e77 (topic
+)
+B | * 8b48b8c A
+|/
+* afd4625
+1
+파이썬@DESKTOP
+-8TN3J1L MINGW64 /c/[smart git]/mysqsh (main)
+$ ls
+f g
+
+
+기준 브랜치에서 hotfix 브랜치 병합
+$ git merge hotfix
+• fast-forward, 3-way merge
+무조건 3-way 병합 수행
+$ git merge --no-ff hotfix
+fast-forward인 경우에만 병합 진행
+$ git merge --ff-only hotfix
+현재 브랜치에서 커밋 하나만 생성해서 병합
+$ git merge --squash hotfix
