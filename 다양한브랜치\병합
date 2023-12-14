@@ -1,0 +1,53 @@
+2 3-way와squash 병합
+병합 전에 파일 수정이 된 경우
+18
+상태가 3영역이 동일하지 않아도 파일 충돌만 없으면 병합 가능
+$ cat f
+111
+222
+$ echo 333 >> f
+$ git status
+On branch main
+Changes not staged for commit:
+(use "git add <file>..." to update what will be 
+committed)
+(use "git restore <file>..." to discard changes in 
+working directory)
+modified: f
+no changes added to commit (use "git add" and/or "git 
+commit -a")
+$ git merge topic -m '3-way merge'
+Merge made by the 'ort' strategy.
+g | 2 ++
+1 file changed, 2 insertions(+)
+create mode 100644 g
+$ git status
+On branch main
+Changes not staged for commit:
+(use "git add <file>..." to update what will be 
+committed)
+(use "git restore <file>..." to discard changes in 
+working directory)
+modified: f
+no changes added to commit (use "git add" and/or "git 
+commit -a")
+$ git lgag1
+* d8994b2 (HEAD -> main) 3-way merge
+|\
+| * 8dd39e7 (topic) B
+| * eb0bfd8 A
+* | 20c8673 2
+|/
+* 3d00e27 1
+
+---
+
+기준 브랜치에서 hotfix 브랜치 병합
+$ git merge hotfix
+• fast-forward, 3-way merge
+무조건 3-way 병합 수행
+$ git merge --no-ff hotfix
+fast-forward인 경우에만 병합 진행
+$ git merge --ff-only hotfix
+현재 브랜치에서 커밋 하나만 생성해서 병합
+$ git merge --squash hotfix
